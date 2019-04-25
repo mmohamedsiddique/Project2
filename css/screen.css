@@ -439,7 +439,7 @@ img, audio, video {
   border: none;
   outline: none;
   color: #DAD6DD;
-  padding: 14px 16px;
+  padding: 14px, 40px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
