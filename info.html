@@ -31,7 +31,8 @@
   </div>
 
 <h2> Upcoming Events and Information </h2> 
-
+<form action="#null" autocomplete="on" class="form-container" id="myForm" method="get"
+    name="myForm" onsubmit="return myfunction()">
 <p> Dear participants, </p>
 <p> Every year with thanks to patron like you, we are able to keep growing this community and provide aid to people in need. Please fill out the form below to be subscribed and stay tune in future event.  </p>
 
@@ -43,12 +44,12 @@
 <div>
       <ul>
         <li><label>Name</label> <input class="icon-1" id="name" name="name" type="text"></li>
-        <li><label>EMAIL*</label> <input class="icon-3" id="email" name="email" type="text"></li>
-          <input class="icon-3" type="submit" value="Subscribe">
+        <li><label>EMAIL*</label> <input class="icon-3" id="email1" name="email" type="text"></li>
+         <button onclick="myFunction()">Subscribe</button>
         </li>
       </ul>
     </div>
-
+</form>
 
 </div> 
 </body>

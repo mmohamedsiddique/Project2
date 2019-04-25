@@ -23,16 +23,9 @@ else
     "We will update you as sooon as new sales season starts!");
 }
 }
-function validateForm (){
-var x = document.forms["myForm"]["name"].value;
-if (x == "") {
+function myFunction() {
+var x = document.forms["myForm"]["email1"].value;
 
-else 
-
-{ alert("Thanks for subscribing, please check your email for conformation on your subscription");
-
+  alert("Thanks for subscribing to ISUD, we are looking forward to work with you in the future, please stay tune.");
 }
-} 
-
-
-}
+ 
