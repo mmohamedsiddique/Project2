@@ -23,4 +23,16 @@ else
     "We will update you as sooon as new sales season starts!");
 }
 }
+function validateForm (){
+var x = document.forms["myForm"]["name"].value;
+if (x == "") {
 
+else 
+
+{ alert("Thanks for subscribing, please check your email for conformation on your subscription");
+
+}
+} 
+
+
+}
